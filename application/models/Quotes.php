@@ -22,8 +22,10 @@ class Quotes extends CI_Model {
 		array('id' => '5', 'who' => 'Socrates', 'mug' => 'socrates-150x150.jpg', 'where' => '/wise/bingo',
 			'what' => 'By all means, marry. If you get a good wife, you’ll become happy; if you get a bad one, you’ll become a philosopher.'),
 		array('id' => '6', 'who' => 'Isaac Asimov', 'mug' => 'isaac-asimov-150x150.jpg', 'where' => '/comp4711/wisdom',
-			'what' => 'Those people who think they know everything are a great annoyance to those of us who do.')
-	);
+			'what' => 'Those people who think they know everything are a great annoyance to those of us who do.'),
+        array('id' => '7', 'who' => 'Dalton Danis', 'mug' => 'personcat.png', 'where' => '/comp4711/wisdom',
+            'what' => 'This is a cat photo.')
+    );
 
 	// Constructor
 	public function __construct()
