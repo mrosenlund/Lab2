@@ -9,4 +9,4 @@ CHANGELOG
 ==============================
 
 Created change log 10:45am 1/18/2017
-
+Enhanced tooltip 9:45am 1/22/2017
