@@ -39,12 +39,7 @@ class Welcome extends Application
 
 		//Get specific author from randNum and utilize get command
 		$source = array($this->quotes->get($randNum));
-		$authors = array ();
-		foreach ($source as $record)
-		{
-			$authors[] = array ('who' => $record['who'], 'mug' => $record['mug'], 'href' => $record['where'], 'what' => $record['what']);
-		}
-		$this->data['authors'] = $authors;
+		$this->data['authors'] = $source;
 
 		$this->render();
 	
